@@ -1,19 +1,7 @@
-:root {
-  --bg: #ffffff;
-  --text: #111111;
-  --card: #f4f4f4;
-}
-
-[data-theme='dark'] {
-  --bg: #0f0f0f;
-  --text: #ffffff;
-  --card: #1a1a1a;
-}
-
+/* index.css */
 body {
   margin: 0;
-  background-color: var(--bg);
-  color: var(--text);
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  transition: all 0.3s ease;
+  background-color: #0f0f0f;
+  color: white;
 }
