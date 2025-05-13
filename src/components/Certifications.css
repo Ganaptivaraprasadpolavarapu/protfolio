@@ -1,0 +1,45 @@
+.certs-container {
+  padding: 3rem 2rem;
+  background-color: #0f0f0f;
+  color: white;
+}
+
+.certs-title {
+  text-align: center;
+  font-size: 2rem;
+  color: #a855f7;
+  margin-bottom: 2rem;
+}
+
+.certs-scroll {
+  display: flex;
+  overflow-x: auto;
+  gap: 1.5rem;
+  padding: 1rem 0;
+  scrollbar-width: thin;
+  scrollbar-color: #9333ea transparent;
+}
+
+.certs-scroll::-webkit-scrollbar {
+  height: 6px;
+}
+
+.certs-scroll::-webkit-scrollbar-thumb {
+  background: #9333ea;
+  border-radius: 10px;
+}
+
+.cert-card {
+  min-width: 280px;
+  background-color: #1a1a1a;
+  padding: 1rem;
+  border-radius: 8px;
+  white-space: nowrap;
+  flex-shrink: 0;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.04);
+  transition: transform 0.3s ease;
+}
+
+.cert-card:hover {
+  transform: scale(1.05);
+}

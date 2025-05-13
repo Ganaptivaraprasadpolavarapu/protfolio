@@ -1,0 +1,58 @@
+.edu-container {
+    padding: 3rem 2rem;
+    background-color: #121212;
+  }
+  
+  .edu-title {
+    font-size: 2rem;
+    color: #a855f7;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .timeline {
+    position: relative;
+    margin-left: 20px;
+    border-left: 2px solid #9333ea;
+    padding-left: 20px;
+  }
+  
+  .timeline-item {
+    position: relative;
+    margin-bottom: 2rem;
+  }
+  
+  .timeline-dot {
+    width: 14px;
+    height: 14px;
+    background-color: #9333ea;
+    border-radius: 50%;
+    position: absolute;
+    left: -27px;
+    top: 0;
+  }
+  
+  .timeline-content {
+    background-color: #1f1f1f;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.05);
+  }
+  
+  .timeline-content h3 {
+    margin: 0;
+    font-size: 1.2rem;
+    color: #fff;
+  }
+  
+  .institution {
+    color: #cccccc;
+    font-size: 1rem;
+    margin: 0.25rem 0;
+  }
+  
+  .year, .percentage {
+    font-size: 0.9rem;
+    color: #aaaaaa;
+  }
+  
